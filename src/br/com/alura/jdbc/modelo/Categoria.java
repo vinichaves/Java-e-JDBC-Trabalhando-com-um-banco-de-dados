@@ -3,6 +3,12 @@ package br.com.alura.jdbc.modelo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Classe da categoria
+ * @author vinicius.chaves
+ *
+ */
+
 public class Categoria {
 
 	private Integer id;
@@ -30,6 +36,7 @@ public class Categoria {
 		return produtos;
 	}
 
+	/** Sobrescrevendo o metodo toString (manipular a saida dos dados) */
 	@Override
 	public String toString() {
 		return this.nome;
